@@ -1,0 +1,6 @@
+services:
+  continuwuity:
+    build:
+      context: /root/Matrix/C-build/continuwuity  # 构建上下文
+      dockerfile: docker/Dockerfile  # Dockerfile 路径
+    image: continuwuity:latest-ci  # 镜像名称
